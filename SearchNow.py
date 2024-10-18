@@ -13,7 +13,7 @@ def speak(audio):
     engine.runAndWait()
 
 def searchGoogle(query):
-    query = query.replace("jarvis", "").replace("google search", "").replace("google", "")
+    query = query.replace("echo", "").replace("google search", "").replace("google", "")
     speak("Searching Google...")
     
     try:
@@ -23,7 +23,7 @@ def searchGoogle(query):
         speak("I couldn't search on Google, please try again.")
 
 def searchYoutube(query):
-    query = query.replace("jarvis", "").replace("youtube search", "").replace("youtube", "")
+    query = query.replace("echo", "").replace("youtube search", "").replace("youtube", "")
     speak("Searching on YouTube...")
     
     try:
@@ -35,7 +35,7 @@ def searchYoutube(query):
         speak("I couldn't search YouTube, please try again.")
 
 def searchWikipedia(query):
-    query = query.replace("jarvis", "").replace("wikipedia", "").replace("search wikipedia", "")
+    query = query.replace("echo", "").replace("wikipedia", "").replace("search wikipedia", "")
     speak("Searching Wikipedia...")
     
     try:

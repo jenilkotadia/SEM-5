@@ -8,7 +8,7 @@ import time
 def window_2():
     
     root2 = tk.Tk()
-    root2.title("Jarvis - Main Interface")
+    root2.title("Echo - Main Interface")
 
     
     root2.attributes("-fullscreen", True)
@@ -63,7 +63,7 @@ def window_2():
     sys.stdout = StdoutRedirector(message_box)
 
     
-    print("Jarvis initialized...")
+    print("Echo initialized...")
     print("Waiting for commands...")
 
 

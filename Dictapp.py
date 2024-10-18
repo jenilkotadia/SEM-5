@@ -27,7 +27,7 @@ dictapp = {
 def openappweb(query):
     speak("Launching, sir")
     if any(ext in query for ext in [".com", ".co.in", ".org"]):
-        query = query.replace("open", "").replace("jarvis", "").replace("launch", "").replace(" ", "")
+        query = query.replace("open", "").replace("echo", "").replace("launch", "").replace(" ", "")
         try:
             webbrowser.open(f"https://www.{query}")
         except Exception as e:

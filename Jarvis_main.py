@@ -216,7 +216,7 @@ def executeCommand(query):
                 from Calculatenumbers import WolfRamAlpha
                 from Calculatenumbers import Calc
                 query = query.replace("calculate","")
-                query = query.replace("jarvis","")
+                query = query.replace("echo","")
                 Calc(query)
 
             elif "whatsapp" in query:
@@ -319,7 +319,7 @@ if __name__ == "__main__":
     window_1()  
     thread_window_2 = threading.Thread(target=window_2)
     thread_window_2.start()
-    speak("Jarvis initialized...")
+    speak("Echo initialized...")
     speak("Waiting for commands...")
     
     while True:

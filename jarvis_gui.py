@@ -8,7 +8,7 @@ import time
 
 def window_1():
     root = tk.Tk()
-    root.title("Jarvis Initializing")
+    root.title("Echo Initializing")
     window_width = 1000  
     window_height = 800  
     root.geometry(f"{window_width}x{window_height}")
@@ -26,7 +26,7 @@ def window_1():
     gif_label = Label(root)
     gif_label.pack(fill=tk.BOTH, expand=True)  
 
-    title_label = Label(root, text="Jarvis Initializing", font=("Helvetica", 24), bg='black', fg='white')
+    title_label = Label(root, text="Echo Initializing", font=("Helvetica", 24), bg='black', fg='white')
     title_label.pack(pady=20)  
 
     frame_folder = "frames2"  
